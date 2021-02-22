@@ -25,10 +25,6 @@ public class User implements UserDetails {
 
     private String password;
 
-    private String alias;
-
-    private String email;
-
     private transient Set<Role> roles = new HashSet<>();
 
     public User(String username) {
